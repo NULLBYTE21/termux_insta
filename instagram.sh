@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
 #////                       _            _  __                              ////
@@ -10,11 +10,13 @@
 #////                                                                       ////
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
+#NULLBYTE21 ONLY FIXES DON'T ANGRY MY BOY
 MERAH='\033[0;31m'
 N='\033[0;m'
 HIJAU='\033[5;49;92m'
 #Warna
 
+figlet -f slant "NULLBYTE21"
 
 echo $HIJAU"Selamat datang kak, Siapa nick kaka?" #tulisan keluar
 
@@ -35,7 +37,7 @@ echo $HIJAU"contoh hack.id_"
 read target # masukin user instagram
 
 echo
-echo $HUJAU"Apakah username $target sudah benar?"
+echo $HIJAU"Apakah username $target sudah benar?"
 echo y/n?
 read confirm
 echo
